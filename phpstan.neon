@@ -2,6 +2,8 @@ parameters:
 
     paths:
         - src/
+        - app/
+        - .core/
 
     level: 9
 
