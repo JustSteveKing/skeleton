@@ -163,13 +163,18 @@ return [
          */
 
         /*
-         * Application Service Providers...
+         * Core Service Providers...
          */
         \Core\Providers\AppServiceProvider::class,
         \Core\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
+        // \Core\Providers\BroadcastServiceProvider::class,
         \Core\Providers\EventServiceProvider::class,
         \Core\Providers\RouteServiceProvider::class,
+
+        /*
+        * Application Service Providers...
+        */
+        App\Providers\BindingServiceProvider::class,
     ])->toArray(),
 
     /*
