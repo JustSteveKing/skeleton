@@ -19,6 +19,7 @@
   "require": {
     "php": "^8.2",
     "guzzlehttp/guzzle": "^7.7",
+    "juststeveking/launchpad": "dev-main",
     "laravel/framework": "^10.13.2",
     "laravel/sanctum": "^3.2.5",
     "laravel/tinker": "^2.8.1"
@@ -29,6 +30,7 @@
     "laravel/sail": "^1.22",
     "mockery/mockery": "^1.6.2",
     "nunomaduro/collision": "^7.5.2",
+    "nunomaduro/larastan": "^2.6",
     "pestphp/pest": "^2.6.2",
     "pestphp/pest-plugin-laravel": "^2.0",
     "spatie/laravel-ignition": "^2.1.3"
@@ -83,6 +85,6 @@
       "php-http/discovery": true
     }
   },
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "prefer-stable": true
 }
